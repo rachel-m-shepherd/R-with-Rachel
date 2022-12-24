@@ -1,0 +1,32 @@
+##### Welcome to our first code! 
+# as mentioned in the presentation, "#" allows you to talk without running code
+# this is used to annotate your code to make sure you and anyone who views your code can understand what is being done
+# whenever you see "#", it's me talking to you 
+
+## Now, Let's start with some basic R language
+# run the following lines and view the output by hitting "run" or command enter
+# look below in the console for the output 
+
+1+1
+
+# this is a very simple output
+# let's make it a value in our environment (top right section) by using "<-"
+
+df <- 1+1
+
+# you should see df 2 under values in your environment section 
+# now, if we ever need to refer to it, we can call it by typing "df"
+
+df
+
+# this is the basics of creating data frames in R... using "<-" to name our data then calling it by that name
+# let's make a more robust data frame with a few numbers in it
+# to do this, we will use a concatenate function: c()
+# and we will use a data frame function: data.frame()
+
+Name <- c("Ian", "Lucas", "Tim", "Rachel", "Brandon")
+Age <- c(21, 21, 22, 23, 25)
+
+siblings <- data.frame(Name, Age)
+
+siblings 
